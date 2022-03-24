@@ -1,0 +1,545 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: Inter;
+}
+
+/* NAVBAR E MENU */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FAF0F0;
+    font-family: Inter;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+}
+
+.header_redes{
+    margin: 0 8px;
+    font-size: 1.56rem;
+    color: #151515;
+}
+
+.header_redes:hover{
+    color: #EE501E;
+}
+
+nav{
+    display: none;
+    justify-content:end;
+}
+
+.nav{
+    display: flex;
+    justify-content:end;
+}
+
+
+.nav_lista{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0px;
+    background-color: #151515;
+    width: 50vw;
+}
+
+.nav_item{
+    color: #FAF0F0;
+    font-size: 1rem;
+    line-height: 150%;
+    padding: 20px 16px;
+    margin: 0;
+}
+
+.nav_item:hover{
+    background-color: #F0BCAB;
+    color: #EE501E;
+    padding: 30px 16px;
+    transition: 0.5s;
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header_menu{
+    background: none;
+    border: none;
+    font-size: 1.56rem;
+    color: #151515;
+    padding: 0;
+}
+
+.header_menu:hover{
+    color: #EE501E;
+}
+/* FIM NAVBAR E MENU */
+
+h1{
+    font-family: Poppins;
+    color: #151515;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 99%;
+}
+
+
+.frontui{
+    color:#7a7a7a;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 1vw;
+}
+
+.topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ptopo{
+    width: 100%;
+    text-align: center;
+}
+
+.button, .button2{
+    font-size: 12px;
+    background-color:#151515;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.mt{
+    margin-top: 5rem;
+}
+
+
+.container, .containermutativo{
+    padding: 5vw 10vw;
+}
+
+h2{
+    margin: 2rem 0;
+    font-size: 18px;
+    color: #383838;
+    line-height:120%;
+    
+}
+
+.boasvindas{
+    padding: 2rem;
+}
+
+.bemvindo{
+    font-size: 25px;
+    color: #383838;
+    font-weight: 700;
+    margin-top: 40px;
+    
+}
+
+
+
+.botoes{
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.bg-green{
+    width: 100vw;
+    padding: 2rem 0;
+    background-color: #7DC7BE;
+    margin: 5rem 0 3rem;
+}
+
+.text-green{
+    color: #1C524C;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jccenter{
+    justify-content:center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+legend{
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 9px;
+    color: #383838;
+}
+
+h3{
+    font-size: 14px;
+    color: #151515;
+    margin: 15px 0 9px;
+}
+
+.todas-ferramentas{
+    margin: 2rem 0;
+}
+
+.ferramentas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    margin-bottom: 2rem;
+}
+
+.img-ferramentas{
+    width: 45px;
+}
+
+#softskill{
+    margin-bottom: 5rem;
+}
+
+.softskills{
+    margin: 0 16px 8px 0;
+}
+
+.bg-rosa{
+    background-color: #151515;
+    width: 100%;
+}
+
+#portfolio{
+    padding: 2rem 0 5rem;
+    margin-bottom: 3rem;
+}
+
+.h2meusprojetos{
+    margin-bottom: 4rem;
+}
+
+.text-orange{
+    color: #7DC7BE;
+}
+
+.imgprojetos{
+    width: 80vw;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.wehug, .nipell, .mcondominio, .blogpessoal, .econotrip, .educa, .maggu, .portfolio{
+    font-size: 12px;
+    color: #FAF0F0;
+    opacity: 80%;
+    width: 60vw;
+    display: none;
+    margin: 0;
+}
+
+.cardprojetos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0;
+}
+
+.formacao{
+    margin: 30px 0;
+}
+
+#formacao{
+    margin-bottom: 5rem;
+}
+
+p{
+    font-size: 12px;
+    color: #383838;
+    line-height: 150%;
+}
+
+footer{
+    background-color: #F2F48D;
+    padding: 40px 0;
+}
+
+.align-end{
+    align-items: end;
+}
+
+.fotomari{
+    width: 100%
+}
+
+
+@media screen and (max-width: 900px){
+
+    .desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px){
+
+    .direita{
+        display: flex;
+        justify-content: end;
+        width: 50%;
+    }
+
+    .esquerda{
+        width: 50%;
+
+    }
+
+    .containermutativo{
+        padding: 0vw 5vw;
+    }
+
+    .ferramentas{
+        width: 25%;
+    }
+
+    .todas-ferramentas{
+        margin-top: 5rem;
+    }
+
+    .boasvindas{
+        width: 30%;
+        margin-bottom: 5rem;
+        margin-left: 5rem;
+    }
+
+
+    h2, .bemvindo{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 20px;
+        color: #383838;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    
+
+    .tablet{
+        display: none;
+    }
+
+    .bg-yellow{
+        height: 25vw;
+    }
+
+    .fotomari{
+        width: 35% !important;
+    }
+    
+}
+
+@media screen and (min-width: 1000px){
+
+    
+    .topo{
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-around;
+    }
+
+    .ptopo{
+        width: 40vw;
+        text-align: start;
+    }
+    
+.button{
+    font-size: 15px;
+    background-color:#151515;
+    color: white;
+    border: solid 2px #151515;
+    border-radius: 5px;
+    padding: 12px 37px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.button2{
+    font-size: 15px;
+    background-color: transparent;
+    color: #EE501E;
+    border: 2px #EE501E solid ;
+    border-radius: 5px;
+    padding: 12px 37px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.button:hover{
+    background-color: #383838;
+    border-color: #383838;
+    color: white;
+}
+
+.button2:hover{
+    background-color: #EE501E;
+    border-color: #EE501E;
+    color: white;
+}
+
+.botoes{
+    justify-content: start;
+}
+
+
+h1{
+    font-family: Poppins;
+    color: #151515;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 99%;
+    text-align: start;
+}
+
+
+.frontui{
+    color:#7a7a7a;
+    font-weight: 300;
+    font-size: 1.5vw;
+    letter-spacing: 1vw;
+}
+
+}
+
+
+
+@media screen and (min-width: 700px){
+    .imgprojetos{
+        width: 100%;
+    }
+
+    .cardprojetos{
+        width: 22vw;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 2rem;
+    }
+
+    .todos-projetos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .wehug, .nipell, .mcondominio, .blogpessoal, .econotrip, .educa, .maggu, .portfolio{
+        display: flex;
+        width: 22vw;
+        text-align: start;
+    }
+
+    .bg-rosa{
+        border-radius: 300px 300px 0 0;
+    }
+
+    .todas-formacoes{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .academico, .cursos{
+        width: 30vw;
+        margin: 0 5rem 0 0;
+    }
+
+    footer{
+        padding: 90px 0;
+    }
+
+    .softskills{
+        margin-right: 5rem;
+    }
+
+    .wd-30{
+        width: 35vw;
+        margin-top: 3rem;
+        margin-right: 5vw;
+    }
+
+    .todas-skills{
+        justify-content: space-between;
+    }
+
+    .linharosa{
+        width: 50%;
+        height: 30px;
+        background-color: #F0BCAB;
+        margin-top: 7rem;
+    }
+
+    .itensnavegacao{
+        margin: 0 1rem;
+        color: #151515;
+    }
+
+    .itensnavegacao:hover{
+        color:#EE501E;
+    }
+
+    .fotomari{
+        width: 50%
+    }
+
+
+
+
+
+}
+
