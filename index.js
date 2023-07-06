@@ -2,9 +2,9 @@ const menu = document.querySelector('nav');
 const descwehug = document.querySelector('.wehug')
 const descnipell = document.querySelector('.nipell')
 const descmcondominio = document.querySelector('.mcondominio')
-const descblog = document.querySelector('.blogpessoal')
+const descduxlab = document.querySelector('.duxlab')
 const desceconotrip = document.querySelector('.econotrip')
-const desceduca = document.querySelector('.educa')
+const desccontajusta = document.querySelector('.contajusta')
 const descmaggu = document.querySelector('.maggu')
 const descportfolio = document.querySelector('.portfolio')
 
@@ -39,12 +39,12 @@ function mostrarmcondominio() {
     }
 } 
 
-function mostrarblog() {
-    if(descblog.style.display == 'none'){
-        descblog.style.display = 'flex';
+function mostrarduxlab() {
+    if(descduxlab.style.display == 'none'){
+        descduxlab.style.display = 'flex';
     }
     else{
-        descblog.style.display = 'none';
+        descbduxlab.style.display = 'none';
     }
 } 
 
@@ -57,12 +57,12 @@ function mostrareconotrip() {
     }
 } 
 
-function mostrareduca() {
-    if(desceduca.style.display == 'none'){
-        desceduca.style.display = 'flex';
+function mostrarcontajusta() {
+    if(desccontajusta.style.display == 'none'){
+        desccontajusta.style.display = 'flex';
     }
     else{
-        desceduca.style.display = 'none';
+        desccontajusta.style.display = 'none';
     }
 } 
 
