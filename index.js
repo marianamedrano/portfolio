@@ -1,7 +1,5 @@
 const menu = document.querySelector('nav');
-const descwehug = document.querySelector('.wehug')
 const descnipell = document.querySelector('.nipell')
-const descmcondominio = document.querySelector('.mcondominio')
 const descduxlab = document.querySelector('.duxlab')
 const desceconotrip = document.querySelector('.econotrip')
 const desccontajusta = document.querySelector('.contajusta')
@@ -12,14 +10,6 @@ function changedisplay(){
     menu.classList.toggle('nav')
 }
 
-function mostrarwehug() {
-    if(descwehug.style.display == 'none'){
-        descwehug.style.display = 'flex';
-    }
-    else{
-        descwehug.style.display = 'none';
-    }
-} 
 
 function mostrarnipell() {
     if(descnipell.style.display == 'none'){
@@ -30,14 +20,6 @@ function mostrarnipell() {
     }
 } 
 
-function mostrarmcondominio() {
-    if(descmcondominio.style.display == 'none'){
-        descmcondominio.style.display = 'flex';
-    }
-    else{
-        descmcondominio.style.display = 'none';
-    }
-} 
 
 function mostrarduxlab() {
     if(descduxlab.style.display == 'none'){
