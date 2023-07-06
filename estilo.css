@@ -479,7 +479,7 @@ h1{
         display: none;
     }
 
-    .nipell, .econotrip, .contajusta, .maggu, .duxlab{
+    .nipell, .econotrip, .contajusta, .maggu, .duxlab, .portfolio{
         display: flex;
         width: 22vw;
         text-align: start;
