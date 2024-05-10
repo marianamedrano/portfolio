@@ -124,7 +124,7 @@ h1{
     color: white;
     border-radius: 5px;
     padding: 8px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
     font-weight: 300;
     text-align: center;
@@ -394,9 +394,9 @@ footer{
     color: white;
     border: solid 2px #151515;
     border-radius: 5px;
-    padding: 12px 37px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    padding: 12px 12px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
     font-weight: 300;
     text-align: center;
     margin-right: 1rem;
@@ -408,9 +408,9 @@ footer{
     color: #EE501E;
     border: 2px #EE501E solid ;
     border-radius: 5px;
-    padding: 12px 37px;
+    padding: 12px 12px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 400;
     text-align: center;
     margin-right: 1rem;
