@@ -123,9 +123,9 @@ h1{
     background-color:#151515;
     color: white;
     border-radius: 5px;
-    padding: 1rem;
+    padding: 8px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 300;
     text-align: center;
     margin-right: 10px;
