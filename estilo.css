@@ -212,12 +212,6 @@ h3{
     margin: 15px 0 9px;
 }
 
-h4{
-    font-size: 12px;
-    color: #151515;
-    margin: 8px 0 8px;
-}
-
 .todas-ferramentas{
     margin: 2rem 0;
 }
@@ -356,6 +350,11 @@ footer{
 
     h3{
         font-size: 20px;
+        color: #383838;
+    }
+
+    h4{
+        font-size: 16px;
         color: #383838;
     }
 
