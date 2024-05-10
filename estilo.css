@@ -409,7 +409,7 @@ footer{
     border: 2px #EE501E solid ;
     border-radius: 5px;
     padding: 12px 12px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
     font-weight: 400;
     text-align: center;
