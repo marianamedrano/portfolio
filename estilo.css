@@ -92,7 +92,7 @@ a{
 h1{
     font-family: Poppins;
     color: #151515;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 800;
     font-size: 30px;
     line-height: 99%;
@@ -436,7 +436,7 @@ footer{
 h1{
     font-family: Poppins;
     color: #151515;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: 800;
     font-size: 3vw;
     line-height: 99%;
